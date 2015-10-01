@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 ANSWER: When a repository is initialized, certain metadata is added to the directory in a hidden .git file which indicates that this is a new repository. A message also appears in the Git Bash console that indicates that an empty repository has been created. Initializing a repository is crucial because without it, a directory is just a directory and you cannot use Git version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+ANSWER: The staging area is different because it is the intermediate space for files to be kept before being committed from the directory to the repository. It is valuable because it gives us a "final review" of what is ready to be committed. If we, by mistake, add a file to the staging area for commitment, we can remove it from the staging area.
+
