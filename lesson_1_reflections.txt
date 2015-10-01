@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+ANSWER: I was able to specifically see the changes made in the new file as opposed to going through a 1000 lines of code. With only a small "code area" to play Sherlock with, I was able to quickly identify the typo. 
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ANSWER: As the complexity of the code increases, a programmer can easily lose sight of the main task at hand and there is a greater probability of bugs in the code. This is a natural process since writing perfect code all the time is impossible. By having an entire history of a file, a programmer can always "time travel" and go back to a specific revision as opposed to starting from scratch. Unlike drafts for school essays, code almost always requires a lot more revision and the entire history is even more critical.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+ANSWER: PROS
+You get to commit at meaningful points during the coding process. You do not want to have to go through thousands of code lines AND thousands of saved versions. Manual commits makes the process of deubgging more efficient as well since you will hopefully have useful comments for each manual commit. Automatic version control would be chaotic if you had a lot of code.
+
+CONS:
+Knowing when to commit manually is an art and not everyone can master it especially as a novice programmer (I consider myself a novice too!). If you do not commit manually when you should, you can create a big mess for yourself and it is at times like these when you will wish you had automatic version control. Let's say you work on one feature for an entire week and then decide to commit. If you have been coding a lot throughout the week, you could have a whole lot of different changes and those changes should have been committed separately. Of course, this depends on the complexity of the code. 
+
+VERDICT: In summary, manual commitments are the way to go but it is imperative that one develops the skill of knowing exactly when to commit.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ANSWER: In programming, there are almost always multiple files that have dependencies on each other. Therefore, a repository system like Git that allows multiple file commitments is essential because a change in the .js file for instance could definitely have an effect on the .html and .css files. It would be disastrous if Git only allowed single file commitments because then you would have to compare the new .js file with the old .js file AND the .html and .css files. 
+Google Docs probably does not allow saving multiple files because it is mainly used for word processing, spreadsheets, etc. that don't always have a lot of interdependencies. However, that being said, if an author like George R.R. Martin was to use Google Docs, he would absolutely need multiple file commitments because he is very good at changing plots and characters. A change made in one chapter could affect the whole series, let alone just the book! He probably uses Git. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+ANSWER: "git log" is useful because it gives you a history of all the commits that were made. One can see the (hopefully meaningful) comment entered for each commit as well as the author name and the date that the commit was made. This is particularly useful when you have a group of programmers and want to track who did what and when. 
+"git diff" is very useful because it allows you to see the changes (insertions/deletions) made in one file compared to another. This way, if you are looking for a bug, you can easily compare the last "working version" with the bugged version. Debugging is made very efficient!
+
+
+How might using version control make you more confident to make changes that could break something?
+
+ANSWER: I would definitely be more confident in making changes that could cause a break because I know that I can use checkout to revert to an older version and go from there. I am curious to learn if there is a better way of going back to the most recent commit without having to enter the most recent commit's ID. Maybe there is a solution coming up in the lesson? I absolutely agree that, while this process is annoying initially, it will become second nature soon enough and will pay dividends in the long run. :) 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+ANSWER: Based on what the course developer stated in his interview, I want to use Git to really expand my thinking process regarding code. I want to make full use of commits in Git and try different approaches and coding techniques. I have heard from other developers that, often in coding, you will have one problem and many different solutions. The skill lies in picking the best solution. I want to use the tracking and checkout features of Git to practice using different solutions and narrowing down the best one. 
+

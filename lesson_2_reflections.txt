@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+ANSWER: When a repository is initialized, certain metadata is added to the directory in a hidden .git file which indicates that this is a new repository. A message also appears in the Git Bash console that indicates that an empty repository has been created. Initializing a repository is crucial because without it, a directory is just a directory and you cannot use Git version control.
