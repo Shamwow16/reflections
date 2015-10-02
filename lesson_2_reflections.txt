@@ -7,4 +7,5 @@ ANSWER: The staging area is different because it is the intermediate space for f
 How can you use the staging area to make sure you have one commit per logical change?
 ANSWER: The staging area shows the files that have been modified. Once you have made one logical change, it will show you that the file has been modified. We can then make the commit. Once the commit is made, we can move on to additional logical changes that need to be made.
 
-
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+ANSWER: Branches would be super helpful anytime I would want to test out a different feature to implement in the code. Instead of having to worry about using the master branch for all my creativity, it is better to "branch off" from the master (so that it remains intact) and work on the new branch. If I do find that my new feature is worth adding to the project, I can easily merge the two branches. As an example, if I ever develop a game (there is an arcade game project coming up!), I can always branch out from the master to make different difficulty levels for my game. 
