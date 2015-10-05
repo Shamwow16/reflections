@@ -9,3 +9,8 @@ ANSWER: The staging area shows the files that have been modified. Once you have 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 ANSWER: Branches would be super helpful anytime I would want to test out a different feature to implement in the code. Instead of having to worry about using the master branch for all my creativity, it is better to "branch off" from the master (so that it remains intact) and work on the new branch. If I do find that my new feature is worth adding to the project, I can easily merge the two branches. As an example, if I ever develop a game (there is an arcade game project coming up!), I can always branch out from the master to make different difficulty levels for my game. 
+
+How do the diagrams help you visualize the branch structure?
+ANSWER: The diagrams are very helpful in the sense that they show the overall structure and direction that the project is taking. While coding, one can easily get lost in the finer details but it is necessary to zoom out once in a while and look at the bigger picture. This is where te branch structure can help. I have never worked in a web development team before but I am sure it does wonders for project managers to see the project as a whole. From a developer's standpoint, it also helps to identify how many branches there are and any commits that are "branchless". It would also help developer teams decide on how and where to merge existing branches.
+
+
