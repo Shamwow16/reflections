@@ -1,1 +1,2 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+ANSWER: A remote repository is super useful for sharing one's work with the rest of the world. Many commonly used tools/framewors such as Bootstrap, Atom and JQuery are found in repositories on GitHub. It is all part of the open-sharing environment and people can make contributions to repositories (provided the manager of the repository accepts your change). The remote repository can also serve as the place where you can "release" all the code that you would like shared with other users. 
