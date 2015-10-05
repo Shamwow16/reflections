@@ -1,2 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
 ANSWER: A remote repository is super useful for sharing one's work with the rest of the world. Many commonly used tools/framewors such as Bootstrap, Atom and JQuery are found in repositories on GitHub. It is all part of the open-sharing environment and people can make contributions to repositories (provided the manager of the repository accepts your change). The remote repository can also serve as the place where you can "release" all the code that you would like shared with other users. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+ANSWER: This is very important especially when it comes to managing large repositories for frameworks like Bootstrap, which can have 1000s of commits on GitHub. Since it is open source, there are a lot of contributors who can make edits and the managers of the repo might not necessarily want to accept all those changes. If all those contributions get updated automatically in the local repo of a Bootstrap admin, it could become super chaotic. Pulling changes manually also allows you to fetch the commits/changes that you wish to see in your local repo.
+
