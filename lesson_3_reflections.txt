@@ -6,3 +6,6 @@ ANSWER: This is very important especially when it comes to managing large reposi
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 ANSWER: A fork is the process of cloning the repository from the owner and creating the clone on Github's server. Forking is useful when we want to link back to another user's repo without having to worry about changing files in the owner's repo. This is in contrast to a regular clone, where the repo is cloned from the owner on Github to one's local computer in the form of a local repository. This is always important when we need to add/remove code from the repository. A branch is a series of commits that is part of a larger structure. Typically, we use a branch when we want to experiment a new feature and do not want to modify the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+ANSWER: The main benefit of having a copy of the last known remote state stored locally is that if one is going to be without internet connectivity for a period of time, such as on a flight, one can access the last known remote state without having to access the remote repo.
