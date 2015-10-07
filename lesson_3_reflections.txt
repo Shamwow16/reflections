@@ -9,3 +9,6 @@ ANSWER: A fork is the process of cloning the repository from the owner and creat
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 ANSWER: The main benefit of having a copy of the last known remote state stored locally is that if one is going to be without internet connectivity for a period of time, such as on a flight, one can access the last known remote state without having to access the remote repo.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+ANSWER: I would need to have my collaborators sit right next to me on their computers at the very least, and even this wont be efficient. I could also share my screen with other programmers and assume the role of "master programmer", which would be super chaotic because my coworkers would have to read through every line of code as I code. This whole process sounds inefficient, error prone and stressful so I would say version control is the only way to go. If we were working on a very small piece of code, perhaps Git is not necessary. However, most meaningul code has a certain level of complexity and being able to work on different parts of the code and to create pull requests seems to be the most efficient way of handling coding projects.
